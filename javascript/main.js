@@ -32,6 +32,61 @@ six.hover(function() {
   six.addClass("six6");
 });
 
+var seven = $(".seven");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
 /*var work = $(".five");
 work.click(function() {
   work.show("slide");
