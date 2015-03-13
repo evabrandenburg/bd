@@ -132,6 +132,92 @@ function init() {
 			$.fn.scrollPath("scrollTo", "six", 1000, "easeInOutSine", function() {
 			});
 		});
+
+		$("#seven").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "seven", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#eight").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "eight", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#nine").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "nine", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#ten").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "ten", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#eleven").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "eleven", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#twelve").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "twelve", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#thirteen").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "thirteen", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#fourteen").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "fourteen", 1000, "easeInOutSine", function() {
+			});
+		})
+
+		$("#fifteen").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "fifteen", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#sixteen").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "sixteen", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#seventeen").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "seventeen", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#eighteen").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "eighteen", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		;
 	};
 
 	/* ===================================================================== */
