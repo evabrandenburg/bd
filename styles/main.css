@@ -105,6 +105,20 @@ body {
 	
 }
 
+.six {
+	color: 					blue;
+	left: 					1800px;
+	top: 					500px;
+	width: 					460px;
+	transform: 				rotate(-90deg) translateY(2.5em);
+}
+
+.six6 { 
+	color:					white;
+	-webkit-transition: color 3s cubic-bezier(.05,-2.75,0,-2);
+	
+}
+
 nav {
 	z-index: 				1000;
 	color:	 				white;

@@ -27,23 +27,17 @@ five.hover(function() {
   five.addClass("five5");
 });
 
+var six = $(".six");
+six.hover(function() {
+  six.addClass("six6");
+});
+
 /*var work = $(".five");
 work.click(function() {
   work.show("slide");
 })*/
 
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-  	mode: 'fade',
-  	adaptiveHeight: true,
-  	captions: true,
-  	minSlides: 1,
-  	maxSlides: 1,
-  	slideWidth: 700,
-  	slideMargin: 10,
-  	randomStart: true
-	});
-});
+
 
 
 function init() {
@@ -82,8 +76,10 @@ function init() {
 		})
 		// Rotate in place
 
-		.arc(5000, 1000, 1100, Math.PI/2, -Math.PI/2, true)
-		.rotate(4* Math.PI/2, {
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
 			name: "six"
 		})
 		
@@ -127,6 +123,13 @@ function init() {
 			e.preventDefault();
 
 			$.fn.scrollPath("scrollTo", "five", 1000, "easeInOutSine", function() {
+			});
+		});
+
+		$("#six").click(function(e) {
+			e.preventDefault();
+
+			$.fn.scrollPath("scrollTo", "six", 1000, "easeInOutSine", function() {
 			});
 		});
 	};
