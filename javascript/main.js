@@ -82,6 +82,90 @@ function init() {
 			},
 			name: "six"
 		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "seven"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "eight"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "nine"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "ten"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "eleven"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "twelve"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "thirteen"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "fourteen"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "fifteen"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "sixteen"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "seventeen"
+		})
+
+		.lineTo(4000, 2100, {
+			callback: function() {
+				highlight($(".sp-scroll-handle"));
+			},
+			name: "eighteen"
+		})
 		
 	
 		// Arc and rotate back to the beginning.
